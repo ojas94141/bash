@@ -1,0 +1,4 @@
+history -w
+cat ~/.bash_history | grep "$1" | grep "$2" | grep "$3" | grep "$4" | grep "$5" | grep "$6" | grep "$7"
+echo "  "
+echo "                 Search results for -> $1 $2 $3 $4 $5 $6 $7"
